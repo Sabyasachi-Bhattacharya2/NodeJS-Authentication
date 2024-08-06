@@ -1,0 +1,23 @@
+
+<h1 style="text-align: center; color: #4CAF50; font-family: Arial, sans-serif; margin-bottom: 20px;">User Registration
+</h1>
+
+<form action="/auth/register" method="POST"
+    style="max-width: 400px; margin: auto; padding: 20px; background-color: #fff; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); font-family: Arial, sans-serif;">
+    <label for="name" style="display: block; margin-bottom: 8px; font-size: 14px; color: #555;">Name:</label>
+    <input type="text" id="name" name="name" required
+        style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px; font-size: 16px; box-sizing: border-box;">
+
+    <label for="email" style="display: block; margin-bottom: 8px; font-size: 14px; color: #555;">Email:</label>
+    <input type="email" id="email" name="email" required
+        style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px; font-size: 16px; box-sizing: border-box;">
+
+    <label for="password" style="display: block; margin-bottom: 8px; font-size: 14px; color: #555;">Password:</label>
+    <input type="password" id="password" name="password" required
+        style="width: 100%; padding: 10px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 4px; font-size: 16px; box-sizing: border-box;">
+
+    <button type="submit"
+        style="width: 100%; padding: 12px; background-color: #4CAF50; color: white; border: none; border-radius: 4px; font-size: 16px; cursor: pointer; transition: background-color 0.3s;">
+        Register
+    </button>
+</form>
